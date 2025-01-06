@@ -1,0 +1,104 @@
+.main-header {
+    background-color: #6288D7;
+    /* Bleu clair */
+    display: flex;
+    justify-content: space-between;
+    /* Écarte les éléments (logo et menu) */
+    align-items: center;
+    /* Aligne les éléments verticalement */
+    padding: 0 20px;
+    font-family: 'Arial', sans-serif;
+    /* Police pour le texte */
+    color: white;
+    height: 80px;
+    /* Hauteur du header */
+    border-bottom: 3px solid #0078D4;
+    /* Ligne de séparation */
+}
+
+/* Logo du header */
+.main-header__logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-transform: none;
+    /* Retirer la mise en majuscule */
+}
+
+/* Bouton du menu */
+.header__menu-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #4A72C2;
+    /* Fond bleu légèrement plus foncé */
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__menu-btn .menu-btn__bar {
+    width: 25px;
+    height: 3px;
+    background: white;
+    position: relative;
+    border-radius: 2px;
+    /* Coins arrondis */
+}
+
+.header__menu-btn .menu-btn__bar::before,
+.header__menu-btn .menu-btn__bar::after {
+    content: '';
+    width: 25px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+    /* Coins arrondis */
+}
+
+.header__menu-btn .menu-btn__bar::before {
+    top: -8px;
+    /* Distance entre la barre du milieu et celle du haut */
+}
+
+.header__menu-btn .menu-btn__bar::after {
+    top: 8px;
+    /* Distance entre la barre du milieu et celle du bas */
+}
+
+/* Texte EN */
+.language-selector {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-right: 10px;
+    color: white;
+}
+
+/* Bouton de langue */
+.header__language {
+    margin-right: 20px;
+}
+
+.language-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Bouton menu */
+.header__menu-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #4A72C2;
+}

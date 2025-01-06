@@ -1,0 +1,66 @@
+/* Card Container */
+.card {
+    width: 100%;
+    max-width: 400px;
+    /* Largeur maximale */
+    background-color: #ffffff;
+    /* Fond blanc */
+    border-radius: 10px;
+    /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Ombre */
+    overflow: hidden;
+    /* Contenu limité aux bords arrondis */
+    margin: 20px auto;
+    /* Centrer la carte avec un espacement */
+}
+
+/* Image */
+.card__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Contenu */
+.card__content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre */
+.card__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003f72;
+    /* Bleu foncé */
+    margin-bottom: 15px;
+}
+
+/* Description */
+.card__description {
+    font-size: 1rem;
+    color: #333333;
+    /* Gris foncé */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Lien */
+.card__link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #003f72;
+    /* Bleu foncé */
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #003f72;
+    /* Soulignement décoratif */
+}
+
+.card__link:hover {
+    color: #0078D4;
+    /* Bleu clair au survol */
+    border-bottom-color: #0078D4;
+    /* Changer la couleur de la ligne au survol */
+}

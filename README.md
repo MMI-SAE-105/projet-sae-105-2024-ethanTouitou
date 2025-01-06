@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : TOUITOU
+- PRÉNOM : Ethan
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/GrjeaxblB3G5HjcxREuZyM/Untitled?node-id=0-1&t=rjyONmEJdQadIp6j-1

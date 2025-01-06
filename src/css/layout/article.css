@@ -1,0 +1,40 @@
+.hero {
+    background-color: #B3D5F7;
+    /* Bleu clair */
+    text-align: center;
+    padding: 20px;
+}
+
+.hero__title {
+    font-size: 2rem;
+    color: #003f72;
+    /* Bleu foncé */
+    margin-bottom: 10px;
+}
+
+.hero__subtitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #003f72;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.hero__text {
+    font-size: 1rem;
+    color: #003f72;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 80%;
+    height: 4px;
+    background-color: #003f72;
+    /* Bleu foncé */
+    margin: 20px auto;
+    /* Centrer avec un espacement */
+    border-radius: 2px;
+    /* Coins légèrement arrondis */
+}
