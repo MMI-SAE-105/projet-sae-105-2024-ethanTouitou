@@ -1,0 +1,84 @@
+/* Frise Chronologique */
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Ligne centrale */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 100%;
+    background-color: #003f72;
+    /* Ligne centrale bleue */
+    z-index: 0;
+}
+
+/* Étape de la timeline */
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Cercle de chaque étape */
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #003f72;
+    /* Bleu foncé */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Image de l'étape */
+.timeline-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Ombre autour de l'image */
+    margin: 20px 0;
+}
+
+/* Contenu texte */
+.timeline-content {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    font-size: 1rem;
+    color: #003f72;
+    /* Texte en bleu */
+}
+
+/* Flèche finale */
+.timeline-item:last-child::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #003f72;
+    /* Flèche bleue */
+}
