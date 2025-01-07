@@ -1,0 +1,78 @@
+/* Section principale */
+.villeneuve-section {
+    display: flex;
+    /* Active Flexbox */
+    flex-direction: column;
+    /* Empile les éléments verticalement */
+    align-items: center;
+    /* Centre tout le contenu horizontalement */
+    justify-content: center;
+    /* Centre tout le contenu verticalement */
+    width: 90%;
+    /* Limite la largeur de la section */
+    max-width: 800px;
+    /* Largeur maximale */
+    margin: 20px auto;
+}
+
+/* Texte */
+.text-section {
+    margin-bottom: 20px;
+}
+
+.text-section h2 {
+    font-size: 1rem;
+    color: #000000;
+    /* Bleu foncé */
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+/* Barres bleues */
+.blue-bar {
+    width: 60px;
+    height: 8px;
+    background-color: #003f72;
+    /* Bleu foncé */
+    border-radius: 10px;
+}
+
+.blue-bar.top {
+    margin-bottom: 10px;
+
+}
+
+.blue-bar.bottom {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Conteneur des images */
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+/* Image responsive */
+.responsive-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Ombre subtile */
+}
+
+/* Légende */
+.image-caption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+}

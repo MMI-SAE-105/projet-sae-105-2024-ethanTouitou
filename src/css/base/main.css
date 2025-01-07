@@ -12,7 +12,7 @@ html {
     /* Assure que le contenu s'adapte à la largeur de l'écran */
     overflow-x: hidden;
     /* Empêche tout débordement horizontal */
-    background-color: #f5f9ff;
+    background-color: #ffffff;
 }
 
 img {
@@ -29,4 +29,36 @@ a {
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 50px;
+}
+
+.image-container {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    /* Largeur maximale */
+    margin: 20px auto;
+    /* Centré avec un espace au-dessus et en dessous */
+}
+
+/* Image responsive */
+.responsive-image {
+    display: block;
+    width: 100%;
+    /* L'image prend toute la largeur du conteneur */
+    height: auto;
+    /* Garde les proportions */
+    border: 1px solid #ddd;
+    /* Bordure grise subtile */
+    border-radius: 5px;
+    /* Coins arrondis */
+}
+
+/* Légende sous l'image */
+.image-caption {
+    font-size: 1rem;
+    margin-top: 10px;
+    /* Espace entre l'image et le texte */
+    color: #666;
+    /* Texte gris clair */
+    text-align: center;
 }
