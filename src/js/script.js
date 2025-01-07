@@ -15,3 +15,23 @@ if (toggle && nav) {
     });
 }
 
+// Script JS pour le carrousel
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+const carouselImages = document.querySelector(".carousel-images");
+
+let index = 0;
+
+prevBtn.addEventListener("click", () => {
+    index = (index > 0) ? index - 1 : 2; // Revient à la dernière image si à la première
+    updateCarousel();
+});
+
+nextBtn.addEventListener("click", () => {
+    index = (index < 2) ? index + 1 : 0; // Revient à la première image si à la dernière
+    updateCarousel();
+});
+
+function updateCarousel() {
+    carouselImages.style.transform = `translateX(-${index * 100}%)`;
+}
