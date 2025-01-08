@@ -17,6 +17,7 @@
 
 /* Pages */
 @import "page/realisateur.css";
+@import "page/glossaire.css";
 /*Layout*/
 @import "layout/header.css";
 @import "layout/footer.css";

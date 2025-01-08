@@ -1,0 +1,38 @@
+/* Section Glossaire */
+.glossary-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.glossary-section h2 {
+    font-size: 1.5rem;
+    color: #003f72;
+    /* Bleu foncé */
+    margin-bottom: 20px;
+}
+
+/* Liste de définitions */
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #003f72;
+    /* Bleu foncé */
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+dd {
+    margin-left: 20px;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: #555;
+    /* Gris foncé */
+}
